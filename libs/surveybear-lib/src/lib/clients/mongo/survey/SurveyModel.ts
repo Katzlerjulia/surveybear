@@ -12,7 +12,8 @@ export interface ISurvey {
 
 export interface ISurveyRecipient {
     name: string,
-    mobileNumber: string
+    mobileNumber: string,
+
 }
 
 const RecipientSchema = new Schema<ISurveyRecipient>({ name: String, mobileNumber: String });
